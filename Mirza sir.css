@@ -1,0 +1,108 @@
+.body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+/* <!this is for heading */
+
+.header {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #e3d475;
+  font-size: 60px;
+}
+
+/* <!navbar */
+#menu {
+  background-color: #f3e9a8;
+}
+#dropdown-menu {
+  background-color: #f3e9a8;
+  color: white;
+}
+#dropdown-menu a:hover {
+  color: #e7dd9c;
+  background-color: black;
+}
+#ek li a {
+  border-radius: 8%;
+}
+#ek li a:hover {
+  background-color: black;
+  color: #e7dd9c;
+  font-weight: border;
+}
+
+/* <!cover image */
+
+#sau-image {
+  margin-left: -1.1%;
+  width: 102.2%;
+  height: 150px;
+}
+
+/* <!main part */
+
+.head {
+  text-align: center;
+  font-size: 40px;
+}
+
+#head {
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+}
+
+#dui {
+  font-size: 15px;
+}
+#dui img {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+#para {
+  text-align: justify;
+}
+#second-para {
+  color: green;
+  text-align: justify;
+}
+
+#tin {
+  font-size: 10px;
+}
+#car {
+  color: green;
+  font-size: 15px;
+}
+#t-para {
+  color: green;
+  text-align: justify;
+}
+
+/* <!icon */
+
+#icon {
+  font-size: 150px;
+  margin-left: 10%;
+}
+#antu {
+  text-align: center;
+}
+
+/* <!responsive */
+@media only screen and (min-width: 0px) and (max-width: 489px) {
+  #sir {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 764px) {
+  #sir {
+    width: 100%;
+  }
+  #header {
+    font-size: 20px;
+  }
+}

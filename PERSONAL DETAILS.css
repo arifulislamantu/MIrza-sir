@@ -1,0 +1,73 @@
+.body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+.header {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #e3d475;
+  font-size: 50px;
+}
+
+/* <!navbar */
+#menu {
+  background-color: #f3e9a8;
+}
+#dropdown-menu {
+  background-color: #f3e9a8;
+  color: white;
+}
+#dropdown-menu a:hover {
+  color: #e7dd9c;
+  background-color: black;
+}
+#ek li a {
+  border-radius: 8%;
+}
+#ek li a:hover {
+  background-color: black;
+  color: #e7dd9c;
+  font-weight: border;
+}
+.head {
+  margin-left: 10%;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#head {
+  color: white;
+}
+#para {
+  text-align: justify;
+  color: green;
+}
+#dui {
+  font-size: 19px;
+}
+#dui img {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+#antu {
+    text-align: center;
+    color: rgb(48, 40, 40);
+  }
+
+/* <!responsive */
+@media only screen and (min-width: 0px) and (max-width: 489px) {
+  #sir {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 764px) {
+  #sir {
+    width: 100%;
+  }
+  #header {
+    font-size: 20px;
+  }
+}
